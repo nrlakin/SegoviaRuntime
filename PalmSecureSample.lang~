@@ -1,0 +1,110 @@
+﻿<?xml version="1.0"?>
+<LangData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MainDialog>
+    <Title>Segovia Registration Demo</Title>
+    <EnrollBtn>Enroll</EnrollBtn>
+    <VerifyBtn>Verify</VerifyBtn>
+    <IdentifyBtn>Identify</IdentifyBtn>
+    <CancelBtn>Cancel</CancelBtn>
+    <DeleteBtn>Delete</DeleteBtn>
+    <ExitBtn>End</ExitBtn>
+    <IdLbl>ID</IdLbl>
+    <IdListLbl>ID List</IdListLbl>
+    <IdNumLbl>Number of IDs</IdNumLbl>
+    <SensorName0>Non-Supported Sensor</SensorName0>
+    <SensorName1>PalmSecure Sensor</SensorName1>
+    <SensorName2>PalmSecure Sensor LT</SensorName2>
+    <SensorName3>PalmSecure Sensor SL</SensorName3>
+    <SensorName4>Non-Supported Sensor</SensorName4>
+    <SensorName5>Non-Supported Sensor</SensorName5>
+    <SensorName6>Non-Supported Sensor</SensorName6>
+    <SensorName7>PalmSecure Sensor EL</SensorName7>
+    <SensorName1_Compati>PalmSecure Sensor</SensorName1_Compati>
+    <SensorName1_Extend>PalmSecure Sensor V2</SensorName1_Extend>
+    <GuideMode0>without Guide mode</GuideMode0>
+    <GuideMode1>with Guide mode</GuideMode1>
+  </MainDialog>
+  <Guidance>
+    <NOTIFY_CAP_GUID_BADIMAGE>Please move your hand away from the sensor.</NOTIFY_CAP_GUID_BADIMAGE>
+    <NOTIFY_CAP_GUID_MOVING>Don't move your hand.</NOTIFY_CAP_GUID_MOVING>
+    <NOTIFY_CAP_GUID_LESSINFO>With your fingers spread, place your hand at the correct position again.</NOTIFY_CAP_GUID_LESSINFO>
+    <NOTIFY_CAP_GUID_RIGHT>Move your hand slightly to the left.</NOTIFY_CAP_GUID_RIGHT>
+    <NOTIFY_CAP_GUID_LEFT>Move your hand slightly to the right.</NOTIFY_CAP_GUID_LEFT>
+    <NOTIFY_CAP_GUID_DOWN>Move your hand slightly away from you.</NOTIFY_CAP_GUID_DOWN>
+    <NOTIFY_CAP_GUID_UP>Move your hand slightly toward you.</NOTIFY_CAP_GUID_UP>
+    <NOTIFY_CAP_GUID_FAR>Your hand is too far from the sensor.</NOTIFY_CAP_GUID_FAR>
+    <NOTIFY_CAP_GUID_NEAR>Place your hand slightly further from the sensor.</NOTIFY_CAP_GUID_NEAR>
+    <NOTIFY_CAP_GUID_CAPTURING>Now saving...Please don't move your hand.</NOTIFY_CAP_GUID_CAPTURING>
+    <NOTIFY_CAP_GUID_PITCH_DOWN>Lay your hand flat.</NOTIFY_CAP_GUID_PITCH_DOWN>
+    <NOTIFY_CAP_GUID_PITCH_UP>Lay your hand flat.</NOTIFY_CAP_GUID_PITCH_UP>
+    <NOTIFY_CAP_GUID_ROLL_RIGHT>Lay your hand flat.</NOTIFY_CAP_GUID_ROLL_RIGHT>
+    <NOTIFY_CAP_GUID_ROLL_LEFT>Lay your hand flat.</NOTIFY_CAP_GUID_ROLL_LEFT>
+    <NOTIFY_CAP_GUID_YAW_RIGHT>Place your hand parallel to the sensor.</NOTIFY_CAP_GUID_YAW_RIGHT>
+    <NOTIFY_CAP_GUID_YAW_LEFT>Place your hand parallel to the sensor.</NOTIFY_CAP_GUID_YAW_LEFT>
+    <NOTIFY_CAP_GUID_ADJUST_LIGHT>Trying to capture again. Please don't move your hand.</NOTIFY_CAP_GUID_ADJUST_LIGHT>
+    <NOTIFY_CAP_GUID_ADJUST_NG>Trying to capture again. Please don't move your hand.</NOTIFY_CAP_GUID_ADJUST_NG>
+    <NOTIFY_CAP_GUID_PHASE_END>Now authenticating...</NOTIFY_CAP_GUID_PHASE_END>
+    <NOTIFY_CAP_GUID_NO_HANDS>Place your hand.</NOTIFY_CAP_GUID_NO_HANDS>
+    <NOTIFY_CAP_GUID_ROUND>Please flatten the hand, and bring it closer to the sensor a little.</NOTIFY_CAP_GUID_ROUND>
+    <NOTIFY_CAP_GUID_START>Start capturing...</NOTIFY_CAP_GUID_START>
+
+    <IllegalId>Enter a valid ID.</IllegalId>
+    <RegistId>This ID already exists.</RegistId>
+    <MaxOver>Reached maximum number of recipients.\r\nAfter deleting an entry, please try again.</MaxOver>
+    <AdminMaxOver>An administrator has already been enrolled.\r\nAfter deleting it, please try again.</AdminMaxOver>
+    <SelectId>Select your own ID.</SelectId>
+    <Unregist>No data exists.</Unregist>
+    <UnregistId>This ID does not exist.</UnregistId>
+    <RetryTransaction>Please replace a hand for a retry.</RetryTransaction>
+    <EnrollmentTest>Please replace a hand for enrollment test.</EnrollmentTest>
+
+    <WorkEnrollStart>Enrollment</WorkEnrollStart>
+    <WorkEnroll>Enrollment ( {0} / 2 )</WorkEnroll>
+    <WorkEnroll3>Enrollment ( {0} / 3 )</WorkEnroll3>
+    <WorkEnrollTest>Enrollment Test ( {0} / 2 )</WorkEnrollTest>
+    <WorkIdentifyStart>Identification</WorkIdentifyStart>
+    <WorkIdentify>Identification</WorkIdentify>
+    <WorkVerifyStart>Verification</WorkVerifyStart>
+    <WorkVerify>Verification</WorkVerify>
+    <WorkDelete>Deletion</WorkDelete>
+  </Guidance>
+  <CompleteMessage>
+    <EnrollOk>You have been successfully enrolled.</EnrollOk>
+    <EnrollNg>Enrollment has failed.</EnrollNg>
+    <EnrollRetry>You have been successfully enrolled.\r\nBut quality is low.</EnrollRetry>
+    <Delete>Selected data has been deleted.</Delete>
+    <VerifyOk>You are {0}.</VerifyOk>
+    <VerifyNg>You are NOT {0}.</VerifyNg>
+    <IdentifyOk>You are {0}.</IdentifyOk>
+    <IdentifyNg>Invalid credentials.</IdentifyNg>
+    <EnrollCancel>The operation has been canceled.</EnrollCancel>
+    <VerifyCancel>The operation has been canceled.</VerifyCancel>
+    <IdentifyCancel>The operation has been canceled.</IdentifyCancel>
+  </CompleteMessage>
+  <ConfirmMessage>
+    <Delete>Are you sure you want to delete the selected ID?</Delete>
+  </ConfirmMessage>
+  <ErrorMessage>
+    <LibErrorTitle>PalmSecure Library Error.</LibErrorTitle>
+    <LibErrorLevel>Error Level </LibErrorLevel>
+    <LibErrorCode>Error Code  </LibErrorCode>
+    <LibErrorDetail>Error Detail</LibErrorDetail>
+    <AplErrorTitle>Registration Error</AplErrorTitle>
+    <AplErrorBmpSave>Failed to save the silhouette log.</AplErrorBmpSave>
+    <AplErrorBmpDirOpen>Failed to access the silhouette directory.</AplErrorBmpDirOpen>
+    <AplErrorLogDirOpen>Failed to access the log directory.</AplErrorLogDirOpen>
+    <AplErrorLogFileOpen>Failed to open the log file.</AplErrorLogFileOpen>
+    <AplErrorLogFileWrite>Failed to write the log file.</AplErrorLogFileWrite>
+    <AplErrorFileDirOpen>Failed to access the authentication data directory.</AplErrorFileDirOpen>
+    <AplErrorFileOpen>Failed to open the authentication data file.</AplErrorFileOpen>
+    <AplErrorFileWrite>Failed to write the authentication data file.</AplErrorFileWrite>
+    <AplErrorFileDelete>Failed to delete the authentication data file.</AplErrorFileDelete>
+    <AplErrorDataFileNotFound>The authentication data file cannot be found.</AplErrorDataFileNotFound>
+    <AplErrorNoData>The authentication data file cannot be found.</AplErrorNoData>
+    <AplErrorGuideBmpLoad>Failed to read the BMP guidance image.</AplErrorGuideBmpLoad>
+    <AplErrorsilhouetteLoad>Failed to read the silhouette image.</AplErrorsilhouetteLoad>
+    <AplErrorSensorNothing>Failed to connect to sensor.</AplErrorSensorNothing>
+    <AplErrorSystemError>An internal error occurred.\r\nApplication will abort.</AplErrorSystemError>
+  </ErrorMessage>
+
+</LangData>
